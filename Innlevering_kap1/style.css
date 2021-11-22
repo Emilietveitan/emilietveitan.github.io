@@ -1,0 +1,213 @@
+*{
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #D9DBF1;
+}
+
+#tekst{
+    font-size: 60px;
+    color: #fff;
+	text-transform: uppercase;
+    padding-top: 150px;
+    
+}
+
+
+.tekst{
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+/* #tekst{
+    /* position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 15% 25%;
+	text-align: center;
+    width: 50%; }*/
+    
+
+
+header a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 100px;
+}
+
+header a:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+/* #overskrift{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    margin: 20px auto;
+    border: 2px solid #251605;
+} */
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url(bilder/pc.jpg);
+    height: 100vh;
+    /* -webkit-background-size: cover; */
+	background-size: cover;
+	background-position: center center; 
+	position: relative; 
+}
+#hvilken{
+    margin-top: 2cm;
+}
+
+#hoved{
+    
+    width: 80%; 
+    height: 400px;
+    display: grid;
+    gap: 5px;
+    margin: 20px auto;
+    /* grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+}
+
+#hoved > div{
+    border: 2px solid #251605;
+    /* width: 200px; */
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: #251605;
+    align-items: center;
+    border-radius: 10px
+}
+
+#hoved img{
+    /* width: 150px; */
+    height: 100px;
+}
+
+#hoved a{
+    color: #000000;
+    font-size: 18px;
+}
+#hoved a:visited{ 
+    color:  #000000;
+}
+#hoved a:hover{
+ color: #B4A0E5;
+ font-size: 25px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 0;
+    gap: 20px;
+}
+ .komp{
+    border: 2px solid #000000;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    font-size: 22px;
+    border-radius: 10px
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+ 
+} 
+
+/* #hovedkort{
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#prosessor{
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#ram{
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#skjermkort{
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#lagring{
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+#hb {
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#pb {
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#rb {
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#sb {
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+#lb {
+    border: 2px solid #251605;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+} */
+
+.parent img {
+    width: 100%;
+   /*  height: 400px; */
+   /*  display: flex;
+    position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.midten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parent a:hover{
+    color: #B4A0E5;
+    font-size: 25px;
+}
+#kilder a:hover{
+    color: #B4A0E5;
+    font-size: 25px;
+}
